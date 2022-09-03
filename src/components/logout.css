@@ -1,0 +1,138 @@
+img{
+    
+    background: #0000;
+    
+}
+.cover{
+    /* Logout Popup */
+    border: 0.5px solid #0859A8;
+width: 478px;
+height: 339px;
+left: 550px;
+top: 342px;
+
+
+}
+.aus{
+    /* Are You Sure? */
+
+    background: #0000;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 22px;
+/* identical to box height, or 88% */
+top: 400px;
+position:absolute; 
+display: flex;
+align-items: center;
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.aus2{
+    /* Are you sure you want to logout */
+    background: #0000;
+    top: 430px;
+    position:absolute; 
+width: 263px;
+height: 22px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.b2{
+    box-sizing: border-box;
+
+/* Auto layout */
+font-family: sans-serif;
+font-size: 16px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+top: 500px;
+left: 870px;
+    position:absolute; 
+width: 140px;
+height: 50px;
+
+/* neon */
+
+border: 1px solid #BCEF4A;
+filter: drop-shadow(4px 38px 62px rgba(255, 255, 255, 0.05));
+border-radius: 8px;
+color: #BCEF4A;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.b1{
+    /* Frame 1000005747 */
+
+
+/* Auto layout */
+top: 500px;
+left: 700px;
+    position:absolute; 
+font-family: sans-serif;
+font-size: 16px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px;
+gap: 10px;
+
+width: 140px;
+height: 50px;
+
+/* neon */
+border: 1px solid #1A1C1D;
+background: #BCEF4A;
+box-shadow: 4px 38px 62px rgba(255, 255, 255, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
