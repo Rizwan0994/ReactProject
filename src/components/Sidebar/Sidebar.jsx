@@ -4,7 +4,7 @@ import { UilSignOutAlt } from "@iconscout/react-unicons";
 import { SidebarData } from "../Data/Data";
 import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
-import logout from "../icons/logout.png";
+import logoutlogo from "../icons/logout.png";
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
 
@@ -48,7 +48,7 @@ const Sidebar = () => {
         {/* signoutIcon */}
         <div >
          
-        <a href="/logout"> <img className="logout" src={logout} alt='logout'/> </a>
+        <a href="/logout"> <img className="logout" src={logoutlogo } alt='logout'/> </a>
         <p className="ltxt" href="/logout">Logout </p>
         </div>
       </div>

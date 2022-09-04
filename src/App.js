@@ -1,28 +1,33 @@
-import LoginForm from "./components/loginform";
-import Logout from "./components/logout";
-import AccountDetails from "./components/accountdeatils";
-import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar';
 
+/*import Login from './components/loginform/loginform';
+import LogoutScreen from './components/logout/logout';
+import Account from './components/accountdeatils/accountdeatils';
+ import Home from './components/home/home';*/
+ import Users from './components/users/users'
+import "../src/App.css";
+import {
+  BrowserRouter as Router,
+  Route,
+  BrowserRouter,
+  Routes
+} from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <div className="AppGlass">
-      <Navbar />
-      
-      <Sidebar/>
-      <AccountDetails/>
-      </div>
-     
-    {/* <div className="page">
-     
-      <AccountDetails/>
-      <Navbar />
-      <Sidebar/>
-
-    </div> */}
-    </div>
+  /*  <BrowserRouter>
+    <Routes>
+    <Route path="/login" element={<Login />} />
+    <Route path="/account" element={<Account />} />
+    <Route path="/home" element={<Home />} />
+    <Route path="/Logout" element={<LogoutScreen />} />
+    </Routes>
+    </BrowserRouter>
+    */
+   <>
+   <Users/>
+   </>
   );
+
+
 }
 //<LoginForm/>
 //<Logout />

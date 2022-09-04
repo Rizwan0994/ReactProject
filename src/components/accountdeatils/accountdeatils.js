@@ -1,13 +1,16 @@
 import "./accountdeatils.css"
 
-import profile from '../../src/icons/profile.png'
-import pic from '../../src/icons/caret-down.png'
-
-const LoginForm = () => {
+import profile from '../icons/profile.png'
+import pic from '../icons/caret-down.png'
+import Navbar from '../Navbar/Navbar';
+import Sidebar from '../Sidebar/Sidebar';
+const accountdeatils = () => {
 
 
     return (
         <div>
+           <Navbar />
+           <Sidebar/>
           <h2 style={{paddingLeft:'200px',paddingBottom:"300px", position: 'absloute',top:'35px'}}>Expenses</h2>
         <div className="cover">
             <h2>Account Details</h2>
@@ -45,4 +48,4 @@ const LoginForm = () => {
     )
 }
 
-export default LoginForm
+export default accountdeatils

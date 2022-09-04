@@ -1,0 +1,17 @@
+.coverusers{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1200px;
+height: 800px;
+left: 260px;
+top: 120px;
+
+background: #151515;
+border: 1px solid #343434;
+box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+}
+.rowcolor{
+    background: #1C1C1C;
+}

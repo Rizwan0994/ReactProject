@@ -1,7 +1,7 @@
 import "./logout.css"
-import "./loginform.css"
-import star from '../../src/icons/star.png'
-const LoginForm = () => {
+
+import star from '../icons/star.png'
+const Logout = () => {
 
 
     return (
@@ -25,4 +25,4 @@ const LoginForm = () => {
     )
 }
 
-export default LoginForm
+export default Logout

@@ -1,0 +1,120 @@
+
+.MuiTableRow-root > * {
+  padding: 10px;
+  color: #C4C4C4;
+}
+.rowcolor{
+  background: #1C1C1C;
+}
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+  width: 94px;
+  height: 21px;
+  
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #C4C4C4;
+
+}
+
+.Table td,
+th {
+  border: none !important;
+  color: #C4C4C4;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+  color: #C4C4C4;
+}
+.status {
+  padding: 8px;
+  border-radius: 9px;
+  color: #C4C4C4;
+}
+
+.Details {
+  color: #C4C4C4!important;
+}
+
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 170%;
+    margin-top: 2rem;
+    
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+  }
+}
+
+
+body{
+
+  background: #d1d5db;
+}
+
+.height{
+
+  
+}
+
+.form{
+
+ 
+}
+
+.form .fa-search{
+
+  position: absolute;
+  top:20px;
+  left: 20px;
+  color: #9ca3af;
+
+}
+
+.form span{
+
+      position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+  padding-left: 7px;
+}
+
+.left-pan i{
+ 
+ padding-left: 10px;
+}
+
+.form-input{
+
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+
+.form-input:focus{
+
+  box-shadow: none;
+  border:none;
+}
