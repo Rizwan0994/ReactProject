@@ -8,7 +8,7 @@ const LoginForm = () => {
 
     return (
         <div>
-
+          <h2 style={{paddingLeft:'200px',paddingBottom:"300px", position: 'absloute',top:'35px'}}>Expenses</h2>
         <div className="cover">
             <h2>Account Details</h2>
             <h3>Enter the details to complete your profile</h3>

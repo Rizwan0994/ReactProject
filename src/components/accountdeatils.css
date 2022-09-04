@@ -1,11 +1,12 @@
+
 .cover{
     box-sizing: border-box;
 
 position: absolute;
-width: 1300px;
-height: 866px;
-left: 300px;
-top: 130px;
+width: 1200px;
+height: 800px;
+left: 260px;
+top: 120px;
 
 background: #151515;
 border: 1px solid #343434;
@@ -39,7 +40,7 @@ font-weight: 500;
 font-size: 22px;
 line-height: 29px;
 /* identical to box height */
-
+background: transparent;
 
 /* white */
 
@@ -64,7 +65,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 21px;
 /* identical to box height */
-
+background: transparent;
 
 /* light grey */
 
@@ -117,7 +118,7 @@ flex-grow: 0;
     
 width: 38px;
 height: 18px;
-
+background: transparent;
 font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -140,7 +141,7 @@ flex-grow: 0;
     
     width: 38px;
     height: 18px;
-    
+    background: transparent;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -160,7 +161,7 @@ flex-grow: 0;
     flex-grow: 0;
     }
     .pname3{
-    
+        background: transparent;
         width: 38px;
         height: 18px;
         
@@ -184,7 +185,7 @@ flex-grow: 0;
         }
 
         .pname{
-    
+            background: transparent;
 width: 38px;
 height: 18px;
 
@@ -208,7 +209,7 @@ flex-grow: 0;
 }
 
 .pname4{
-    
+    background: transparent;
     width: 38px;
     height: 18px;
     
@@ -234,7 +235,7 @@ flex-grow: 0;
     
         width: 38px;
         height: 18px;
-        
+        background: transparent;
         font-family: sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -257,7 +258,7 @@ flex-grow: 0;
     
             width: 38px;
             height: 18px;
-            
+            background: transparent;
             font-family: sans-serif;
             font-style: normal;
             font-weight: 400;
