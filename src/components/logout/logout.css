@@ -1,19 +1,29 @@
-img{
+.logoutimg{
     
     background: #0000;
     
 }
-.cover{
+
+.logoutcover{
     /* Logout Popup */
     border: 0.5px solid #0859A8;
 width: 478px;
 height: 339px;
 left: 550px;
-top: 342px;
+top: 300px;
+position: absolute;
+background-color: #242424;
 
+/* position: relative; */
+border-radius: 0.5em;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
 
 }
-.aus{
+.logoutaus{
     /* Are You Sure? */
 
     background: #0000;
@@ -24,7 +34,7 @@ font-weight: 700;
 font-size: 25px;
 line-height: 22px;
 /* identical to box height, or 88% */
-top: 400px;
+top: 120px;
 position:absolute; 
 display: flex;
 align-items: center;
@@ -42,10 +52,10 @@ order: 0;
 flex-grow: 0;
 }
 
-.aus2{
+.logoutaus2{
     /* Are you sure you want to logout */
     background: #0000;
-    top: 430px;
+    top: 150px;
     position:absolute; 
 width: 263px;
 height: 22px;
@@ -73,7 +83,7 @@ order: 1;
 flex-grow: 0;
 }
 
-.b2{
+.logoutb2{
     box-sizing: border-box;
 
 /* Auto layout */
@@ -85,14 +95,14 @@ justify-content: center;
 align-items: center;
 padding: 6px;
 gap: 10px;
-top: 500px;
-left: 870px;
+top: 250px;
+left: 280px;
     position:absolute; 
 width: 140px;
 height: 50px;
 
 /* neon */
-
+background: transparent;
 border: 1px solid #BCEF4A;
 filter: drop-shadow(4px 38px 62px rgba(255, 255, 255, 0.05));
 border-radius: 8px;
@@ -104,13 +114,13 @@ order: 1;
 flex-grow: 0;
 }
 
-.b1{
+.logoutb1{
     /* Frame 1000005747 */
 
 
 /* Auto layout */
-top: 500px;
-left: 700px;
+top: 250px;
+left: 110px;
     position:absolute; 
 font-family: sans-serif;
 font-size: 16px;

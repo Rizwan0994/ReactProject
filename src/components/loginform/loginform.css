@@ -1,17 +1,38 @@
-*{
+loginbody{
    margin: 2px;
     box-sizing: border-box;
     font-family: "DM Sans";
     background-color: #151515;
     
 }
+.ac{
+    background: transparent;
+    text-decoration: none;
+
+    
+width: 49px;
+height: 21px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #222222;
+
+}
 .App-logo{
+    
     width: 110px;
    margin-left: 680px;
    margin-bottom: 50PX;
    margin-top: 2rem;
 }
-h1 {
+h1.login{
     font-family: sans-serif;
     display: block;
     font-size: 2em;
@@ -24,7 +45,7 @@ h1 {
     background-color: #242424;
     
 }
-h4 {
+h4{
     display: block;
     font-size: 16px;
     font-family: sans-serif;
@@ -35,31 +56,38 @@ h4 {
     font-weight: bold;
     color: aliceblue;
     background-color: #242424;
-    margin-top: -3rem;
+    position: relative;
+    background: transparent;
 
 }
 h5{
 
 font-family: sans-serif;
 font-weight: 400;
-font-size: 17px;
-line-height: 18px;
-margin-right: 21rem;
+font-size: 14px;
+line-height: 14px;
+margin-right: 18rem;
 color: #FFFFFF;
 background-color: #242424;
-margin-bottom: -1rem;
-
+margin-bottom: 15rem;
+ position: absolute;
 }
 h6{
     
-    font-family: sans-serif;
+    width: 97px;
+    height: 18px;
+    
+    font-style: normal;
+   font-family: sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 18px;
-    margin-right: 23rem;
+    margin-right: 18rem;
     color: #FFFFFF;
     background-color: #242424;
-    margin-bottom: -1rem;
+    margin-bottom: -1.5rem;
+    top:-90px;
+   position: relative;
     }
 @font-face {
     font-family: "CustomFont";
@@ -107,11 +135,11 @@ h6{
 
 
 
-input {
+.logininput{
     border: none;
     background-color: #151515;
-    height: 4em;
-    width: 80%;
+    width: 370px;
+height: 50px;
     font-weight: 400;
     font-family: sans-serif;
     font-size: 15px;
@@ -120,17 +148,40 @@ input {
     border-radius: 0.25em;
     text-align: left;
     padding-left: 12px;
-    top: 40px;
+    margin-bottom: 70px;
     margin-top: 2px;
-}
 
-input:focus {
+    background: #151515;
+box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+}
+.logininputt{
+    border: none;
+    background-color: #151515;
+    width: 370px;
+height: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    color: #FFFFFF;
+    border-radius: 0.25em;
+    text-align: left;
+    padding-left: 12px;
+    top: 460px;
+    
+position:absolute;
+    background: #151515;
+box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+}
+.logininput:focus {
     outline-color: #04FAFF;
 }
 
 .login-btn {
 
-    width: 440px;
+    width: 370px;
     height: 3em;
     font-family: sans-serif;
     font-style: bold;
@@ -142,11 +193,11 @@ input:focus {
     transition: 0.5s;
     border-radius: 8px;
     cursor: pointer;
-    padding-right: 70px;
-    margin-bottom: 30px;
+    padding-right: 100px;
+    margin-bottom: 70px;
 }
 
-.login-btn:hover { transform: scale(1.25);}
+.login-btn:hover { transform: scale(1.2);}
 
 .text {
     position: relative;

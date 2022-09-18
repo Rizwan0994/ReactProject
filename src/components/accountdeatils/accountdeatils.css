@@ -1,5 +1,5 @@
 
-.cover{
+.accountcover{
     box-sizing: border-box;
 
 position: absolute;
@@ -53,7 +53,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-h3{
+.accounth3{
     width: 304px;
 height: 21px;
 position: absolute;
@@ -91,6 +91,7 @@ left:60px;
 flex: none;
 order: 0;
 flex-grow: 0;
+background: transparent;
 }
 .inputdetails{
 /* Frame 1000005830 */
@@ -129,7 +130,7 @@ line-height: 18px;
 color: #FFFFFF;
 
 position: absolute;
-top:330px;
+top:315px;
 left:60px;
 /* Inside auto layout */
 
@@ -152,7 +153,7 @@ flex-grow: 0;
     color: #FFFFFF;
     
     position: absolute;
-    top:430px;
+    top:415px;
     left:60px;
     /* Inside auto layout */
     
@@ -175,7 +176,7 @@ flex-grow: 0;
         color: #FFFFFF;
         
         position: absolute;
-        top:530px;
+        top:512px;
         left:60px;
         /* Inside auto layout */
         
@@ -184,29 +185,7 @@ flex-grow: 0;
         flex-grow: 0;
         }
 
-        .pname{
-            background: transparent;
-width: 38px;
-height: 18px;
-
-font-family: sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-/* white */
-
-color: #FFFFFF;
-
-position: absolute;
-top:330px;
-left:60px;
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
+    
 
 .pname4{
     background: transparent;
@@ -223,7 +202,7 @@ flex-grow: 0;
     color: #FFFFFF;
     
     position: absolute;
-    top:330px;
+    top:315px;
     left:570px;
     /* Inside auto layout */
     
@@ -246,7 +225,7 @@ flex-grow: 0;
         color: #FFFFFF;
         
         position: absolute;
-        top:430px;
+        top:415px;
         left:570px;
         /* Inside auto layout */
         
@@ -269,7 +248,7 @@ flex-grow: 0;
             color: #FFFFFF;
             
             position: absolute;
-            top:537px;
+            top:519px;
             left:570px;
             /* Inside auto layout */
             
@@ -474,11 +453,12 @@ top: 370px;
      color: #BCEF4A;
     
 }
-img{
+.accountimg1{
     position: absolute;
     width: 16px;
     height: 16px;
     left: 390px;
      top: 565px;
      z-index: 2;
+     background: transparent;
 }

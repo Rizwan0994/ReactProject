@@ -1,16 +1,20 @@
 
+
+  
+
 .MuiTableRow-root > * {
   padding: 10px;
   color: #C4C4C4;
+  background-color: #151515;
 }
 .rowcolor{
-  background: #1C1C1C;
+  background: #151515;
 }
 .MuiTableRow-root.MuiTableRow-head > * {
   font-weight: bold !important;
   width: 94px;
   height: 21px;
-  
+  background-color: #151515;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -66,24 +70,23 @@ th {
 body{
 
   background: #d1d5db;
+  background-color: #121212;
 }
 
-.height{
-
-  
-}
 
 .form{
 
+ width: 280px;
  
 }
 
 .form .fa-search{
 
   position: absolute;
-  top:20px;
-  left: 20px;
+  top:29px;
+  left: 30px;
   color: #9ca3af;
+  
 
 }
 
@@ -93,7 +96,7 @@ body{
   right: 17px;
   top: 13px;
   padding: 2px;
-  border-left: 1px solid #d1d5db;
+  border-left: 0.5px solid #d1d5db;
 
 }
 
@@ -107,10 +110,20 @@ body{
 }
 
 .form-input{
-
-  height: 55px;
+margin: 20px;
+  height: 30px;
+  width: 280px;
   text-indent: 33px;
   border-radius: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  
+    background-color: #151515;
+  color: #4B7276;
 }
 
 .form-input:focus{

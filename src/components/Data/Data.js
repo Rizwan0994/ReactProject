@@ -35,6 +35,7 @@ export const SidebarData = [
   {
     icon: UilEuro,
     heading: 'Accounts',
+    
   },
   {
     icon: UilReceipt ,

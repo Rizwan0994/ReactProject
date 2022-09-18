@@ -136,7 +136,7 @@ const Home = (props) => {
                 <span>120</span>
               </span>
               <span className="home-text19">
-                <span>Users</span>
+                <span> Users</span>
               </span>
             </div>
           </div>
@@ -507,7 +507,7 @@ const Home = (props) => {
               />
             </div>
             <span className="home-text65">
-              <span>Users</span>
+              <span><a  a className='acc-btn' href='/users'>Users</a></span>
             </span>
           </div>
         </div>
